@@ -34,5 +34,7 @@ RUN set -ex; \
 		tcl8.6 \
 		tcpdump \
 		wget \
+    # TODO remove
+    python3-scapy \
 	; \
 	rm -rf /var/lib/apt/lists/*
